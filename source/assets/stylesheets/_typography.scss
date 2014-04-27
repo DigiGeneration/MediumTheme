@@ -3,3 +3,9 @@
 
 @import "compass/typography";
 @include establish-baseline;
+
+.post-title {
+	font-size: 72px;
+	color: white;
+	font-style: italic;
+}

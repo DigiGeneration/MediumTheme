@@ -4,9 +4,9 @@
 // This is your master stylesheet
 @import "compass";
 // Use SASS to include CSS partials
-// @import "reset";
+@import "compass/reset";
 @import "typography";
-
+@import "base";
 
 // Add some basic styling
 .clear {

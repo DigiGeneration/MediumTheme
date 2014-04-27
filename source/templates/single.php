@@ -2,7 +2,7 @@
 	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<h1><?php the_title(); ?></h1>
+				<h1 class="post-title"><?php the_title(); ?></h1>
 				<div>
 					<?php printf( __( 'by %s on', 'MediumTheme' ), get_the_author() ); ?> <?php the_date(); ?>
 				</div>
